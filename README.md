@@ -20,10 +20,15 @@ To achieve this I built a machine learning model to classify users in their life
   - Visualising the data in 2-D space after dimensionality reduction to find linearly separable data
   
   <img src="health2.png?raw=true"/>
+  
   *Fig: distribution for each category*
+  
   <img src="health4.png?raw=true"/>
+  
   *Fig: correlation between features* 
+  
   <img src="health3.png?raw=true"/>
+  
   *Fig: TSNE plot*
   
 - **Model Building**:
@@ -37,6 +42,7 @@ To achieve this I built a machine learning model to classify users in their life
   - Final deployment using Heroku
   
   <img src="health.PNG?raw=true"/>
+  
   *Fig: Health App Prediction Interface*
   
 For future changes, I plan to let user input their heights and weights as inputs in place of BMI, so that BMI can be computed in the script and make it even readily available inputs for the users.
