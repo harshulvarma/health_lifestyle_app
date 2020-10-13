@@ -36,7 +36,7 @@ To achieve this I built a machine learning model to classify users in their life
   - Building inference pipeline using Streamlit for frontend and backend of the machine learning app connecting to the model weights
   - Final deployment using Heroku
   
-  <img src="health.png?raw=true"/>
+  <img src="health.PNG?raw=true"/>
   *Fig: Health App Prediction Interface*
   
 For future changes, I plan to let user input their heights and weights as inputs in place of BMI, so that BMI can be computed in the script and make it even readily available inputs for the users.
