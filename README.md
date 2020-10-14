@@ -32,9 +32,9 @@ To achieve this I built a machine learning model to classify users in their life
   *Fig: TSNE plot*
   
 - **Model Building**:
-  - Baseline Models: Building Logistic Regression and Random Forest Classifier to achieve 0.98 F1 score
-  - Feature Engineering: Selecting important features that made the most sense from a business point of view and finally used only two features - resting heartrate and BMI. Although the F1 score reduced to 0.95, but made the user inputs simpler and readily available as heartrate can be measured and BMI can be calculated based on user height and weight
-  - Hyperparameter tuning: Conducting hyperparameter tuning for Random Forest model such as max depth, max features, min sample leaf, number of estimators etc. to achieve 0.96 F1 Score, improvement from last model iteration
+  - **Baseline Models**: Building Logistic Regression and Random Forest Classifier to achieve 0.98 F1 score
+  - **Feature Engineering**: Selecting important features that made the most sense from a business point of view and finally used only two features - resting heartrate and BMI. Although the F1 score reduced to 0.95, but made the user inputs simpler and readily available as heartrate can be measured and BMI can be calculated based on user height and weight
+  - **Hyperparameter tuning**: Conducting hyperparameter tuning for Random Forest model such as max depth, max features, min sample leaf, number of estimators etc. to achieve 0.96 F1 Score, improvement from last model iteration
   
 - **Model Deployment**:
   - Saving final model weights in pickle format
